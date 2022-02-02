@@ -1,0 +1,24 @@
+/*This is the style sheet for the game*/
+
+h1 {
+    left: 0;
+    line-height: 20px;
+    margin-top: -50px;
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    width: 100%;
+    /*all the code above center the h1 to the middle of the screen*/
+    color: red;
+}
+body {
+    left: 0;
+    line-height: 30px;
+    margin-top: 50px;
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    width: 100%;
+
+}
+

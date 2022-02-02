@@ -9,11 +9,13 @@ for (let i = 0; i < buttons.length; i++)
     //innerHTML gets what is inside the balise (const cannot change)
     const player = buttons[i].innerHTML;
     //Get a random number between 0 and 2 (in this case)
-    const robot = buttons[Math.floor(Math.random() * buttons.length)].innerHTML;
+    const robot = buttons[Math.floor(Math.random() * (buttons.length))].innerHTML;
     //console.log(`Player : ${player} vs Robot : ${robot}`);
     let result = "";
 
-    if (player === robot)
+    if (player === "Cheat")
+        result = "Player wins but cheating is bad";
+    else if (player === robot)
         result = "Draw";
     else if ((player === "Pierre" && robot === "Ciseaux")
             ||(player === "Feuille" && robot === "Pierre")

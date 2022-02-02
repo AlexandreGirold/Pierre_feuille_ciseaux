@@ -4,19 +4,21 @@
 <meta charset=utf-8>
 <title>Pierre Feuille Ciseaux</title>
 </head>
+
 <body>
+    <link rel="stylesheet" href="pretty.css">
     <h1>Let's play a game!</h1>
     <button>Pierre</button>
     <button>Feuille</button>
     <button>Ciseaux</button>
-    <button>Puit</button>
+    <button>Cheat</button>
     <div class="Results"></div>
     </br>
 
     <!-- This is how to use an external js file.-->
     <script type = "text/javascript" src= "game.js"></script>
 
-<p>paragraph here</p>
+<p>Developped with love and care.</p>
 
 </body>
 </html>
